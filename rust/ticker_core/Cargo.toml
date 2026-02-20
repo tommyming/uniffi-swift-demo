@@ -1,0 +1,13 @@
+[package]
+name = "ticker_core"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "ticker_core"
+crate-type = ["staticlib", "cdylib"]
+
+[dependencies]
+rand = "0.8"
+tokio = { version = "1.38", features = ["rt-multi-thread", "time"] }
+uniffi = "0.27"

@@ -1,0 +1,242 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA1111111111111111111131 /* TickerDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1111111111111111111127 /* TickerDemoApp.swift */; };
+		AA1111111111111111111132 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1111111111111111111128 /* ContentView.swift */; };
+		AA1111111111111111111133 /* TickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1111111111111111111129 /* TickerViewModel.swift */; };
+		AA1111111111111111111134 /* TickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA111111111111111111112A /* TickerController.swift */; };
+		AA1111111111111111111135 /* PriceAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA111111111111111111112B /* PriceAdapter.swift */; };
+		AA1111111111111111111136 /* TickerCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA111111111111111111112C /* TickerCore.swift */; };
+		AA1111111111111111111137 /* TickerCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA111111111111111111112F /* TickerCore.xcframework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA1111111111111111111127 /* TickerDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerDemoApp.swift; sourceTree = "<group>"; };
+		AA1111111111111111111128 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA1111111111111111111129 /* TickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerViewModel.swift; sourceTree = "<group>"; };
+		AA111111111111111111112A /* TickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerController.swift; sourceTree = "<group>"; };
+		AA111111111111111111112B /* PriceAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceAdapter.swift; sourceTree = "<group>"; };
+		AA111111111111111111112C /* TickerCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerCore.swift; sourceTree = "<group>"; };
+		AA111111111111111111112D /* TickerCoreFFI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TickerCoreFFI.h; sourceTree = "<group>"; };
+		AA111111111111111111112E /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		AA111111111111111111112F /* TickerCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TickerCore.xcframework; sourceTree = "<group>"; };
+		AA1111111111111111111130 /* TickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = TickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA1111111111111111111126 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1111111111111111111137 /* TickerCore.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA1111111111111111111112 /* TickerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AA1111111111111111111115 /* TickerDemo */,
+				AA1111111111111111111116 /* Generated */,
+				AA1111111111111111111114 /* Frameworks */,
+				AA1111111111111111111113 /* Products */,
+			);
+			path = "";
+			sourceTree = "<group>";
+		};
+		AA1111111111111111111115 /* TickerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AA1111111111111111111127 /* TickerDemoApp.swift */,
+				AA1111111111111111111128 /* ContentView.swift */,
+				AA1111111111111111111129 /* TickerViewModel.swift */,
+				AA111111111111111111112A /* TickerController.swift */,
+				AA111111111111111111112B /* PriceAdapter.swift */,
+			);
+			path = TickerDemo;
+			sourceTree = "<group>";
+		};
+		AA1111111111111111111116 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				AA111111111111111111112C /* TickerCore.swift */,
+				AA111111111111111111112D /* TickerCoreFFI.h */,
+				AA111111111111111111112E /* module.modulemap */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		AA1111111111111111111114 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA111111111111111111112F /* TickerCore.xcframework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA1111111111111111111113 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA1111111111111111111130 /* TickerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA1111111111111111111117 /* TickerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA1111111111111111111118 /* Build configuration list for PBXNativeTarget "TickerDemo" */;
+			buildPhases = (
+				AA1111111111111111111124 /* Sources */,
+				AA1111111111111111111126 /* Frameworks */,
+				AA1111111111111111111125 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TickerDemo;
+			productName = TickerDemo;
+			productReference = AA1111111111111111111130 /* TickerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA1111111111111111111111 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = AA1111111111111111111121 /* Build configuration list for PBXProject "TickerDemo" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA1111111111111111111112 /* TickerDemo */;
+			productRefGroup = AA1111111111111111111113 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA1111111111111111111117 /* TickerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA1111111111111111111125 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA1111111111111111111124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1111111111111111111131 /* TickerDemoApp.swift in Sources */,
+				AA1111111111111111111132 /* ContentView.swift in Sources */,
+				AA1111111111111111111133 /* TickerViewModel.swift in Sources */,
+				AA1111111111111111111134 /* TickerController.swift in Sources */,
+				AA1111111111111111111135 /* PriceAdapter.swift in Sources */,
+				AA1111111111111111111136 /* TickerCore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA1111111111111111111119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.TickerDemo";
+				PRODUCT_NAME = "TickerDemo";
+				SWIFT_VERSION = 5.9;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/Generated";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Generated";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Frameworks";
+				MODULEMAP_FILE = "$(PROJECT_DIR)/Generated/module.modulemap";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA1111111111111111111120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.TickerDemo";
+				PRODUCT_NAME = "TickerDemo";
+				SWIFT_VERSION = 5.9;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/Generated";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Generated";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Frameworks";
+				MODULEMAP_FILE = "$(PROJECT_DIR)/Generated/module.modulemap";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA1111111111111111111122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "TickerDemo";
+			};
+			name = Debug;
+		};
+		AA1111111111111111111123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "TickerDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA1111111111111111111118 /* Build configuration list for PBXNativeTarget "TickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1111111111111111111119 /* Debug */,
+				AA1111111111111111111120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA1111111111111111111121 /* Build configuration list for PBXProject "TickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1111111111111111111122 /* Debug */,
+				AA1111111111111111111123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA1111111111111111111111 /* Project object */;
+}

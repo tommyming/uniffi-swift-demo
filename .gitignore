@@ -1,0 +1,5 @@
+rust/ticker_core/target/
+apple/TickerDemo/Generated/
+apple/TickerDemo/Frameworks/
+*.xcframework
+.DS_Store
